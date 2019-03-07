@@ -1,3 +1,6 @@
+import sys
+import math
+
 tmp=input().split()
 N = int(tmp[0])
 K = int(tmp[1])
@@ -14,5 +17,5 @@ elif K == N:
 else:
     tmp=input().split()
     A = [int(num) for num in tmp]
-    A.sort(key=abs)
-    print(A)
+    A.sort(key = abs)
+    
